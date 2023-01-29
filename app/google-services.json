@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "668411139394",
+    "firebase_url": "https://masmedapp-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    "project_id": "masmedapp",
+    "storage_bucket": "masmedapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668411139394:android:eeb05c6a40d1d500c124db",
+        "android_client_info": {
+          "package_name": "com.lisa.masmedapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668411139394-3n8oqppdppceotkv1iu9kij3or7vslgc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lisa.masmedapp",
+            "certificate_hash": "48abc3ecf065ae8ec468c154db2e0b69fdb926ad"
+          }
+        },
+        {
+          "client_id": "668411139394-hu819p6l1ncke300c35al36g2t3bu0qb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVNSN21JxBhGpTthN_q5WVC_VmNs9nSD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668411139394-hu819p6l1ncke300c35al36g2t3bu0qb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

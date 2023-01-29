@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/lightBeige"
+    tools:context=".Update_parcel">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Parcel"
+            android:textSize="36sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/blue"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/update_parcel_name_person"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginTop="40dp"
+            android:padding="8dp"
+            android:hint="Receipient Name"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="8dp"/>
+
+        <EditText
+            android:id="@+id/update_parcel_tracking_number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_edittext"
+            android:drawableLeft="@drawable/baseline_confirmation_number_24"
+            android:drawablePadding="8dp"
+            android:hint="Tracking Number"
+            android:padding="8dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/update_parcel_phone"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:hint="Phone Number"
+            android:drawableLeft="@drawable/baseline_phone_24"
+            android:drawablePadding="8dp"/>
+
+        <EditText
+            android:id="@+id/update_parcel_date"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:hint="Date Received"
+            android:drawableLeft="@drawable/baseline_date_range_24"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/update_spinnerCourier"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_edittext"
+            android:drawableLeft="@drawable/baseline_fire_truck_24"
+            android:drawablePadding="8dp"
+            android:hint="Tracking Number"
+            android:padding="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/delete_parcel"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:text="DELETE"
+                android:layout_gravity="center"
+                android:layout_marginRight="8dp"
+                android:backgroundTint="@color/brown"
+                app:cornerRadius="30dp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/update_parcel"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:text="UPDATE"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="8dp"
+                android:backgroundTint="@color/blue"
+                app:cornerRadius="30dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
